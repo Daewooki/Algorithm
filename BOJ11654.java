@@ -1,10 +1,14 @@
-import java.util.Scanner;
-public class Main {
-       public static void main(String args[]) {
-              Scanner sc = new Scanner(System.in);
-              char a = sc.nextLine().charAt(0);
-              int ac= (int)a;
-              
-              System.out.println(ac);
-       }
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class BOJ11654 {
+	public static void main(String args[]) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		int c = (int)br.read();
+		System.out.println(c);
+	
+		br.close();
+	}
 }
