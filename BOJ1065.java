@@ -30,7 +30,7 @@ public class BOJ1065 {
 					return false;
 				}
 			}
-		}
+		} 
 		return true;
 	}
 }
